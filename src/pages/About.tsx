@@ -3,6 +3,7 @@ import { supabase } from '../lib/supabase';
 import { useLang } from '../context/LangContext';
 import type { Page } from '../types';
 
+
 export default function About() {
   const { lang, t } = useLang();
   const [page, setPage] = useState<Page | null>(null);
@@ -23,12 +24,6 @@ export default function About() {
       return <p key={i} className="text-neutral-700 leading-relaxed">{line}</p>;
     });
   }
-
-  const team = [
-    { name: 'Alex Wong', role: t('Founder & CEO', '創始人兼首席執行官'), img: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300' },
-    { name: 'Sarah Chen', role: t('Creative Director', '創意總監'), img: 'https://images.pexels.com/photos/1587009/pexels-photo-1587009.jpeg?auto=compress&cs=tinysrgb&w=300' },
-    { name: 'Michael Liu', role: t('Head of Operations', '運營總監'), img: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=300' },
-  ];
 
   return (
     <>
@@ -65,19 +60,6 @@ export default function About() {
           ))}
         </div>
 
-        {/* Team */}
-        <h2 className="text-2xl font-bold text-neutral-900 mb-6">{t('Meet the Team', '認識我們的團隊')}</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-          {team.map(member => (
-            <div key={member.name} className="text-center">
-              <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-3 bg-neutral-100">
-                <img src={member.img} alt={member.name} className="w-full h-full object-cover" />
-              </div>
-              <h3 className="font-semibold text-neutral-900">{member.name}</h3>
-              <p className="text-sm text-neutral-500">{member.role}</p>
-            </div>
-          ))}
-        </div>
       </div>
     </>
   );
