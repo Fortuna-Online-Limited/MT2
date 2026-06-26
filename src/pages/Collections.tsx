@@ -17,12 +17,7 @@ export default function Collections() {
     });
   }, []);
 
-  const fallbackImages = [
-    'https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5650803/pexels-photo-5650803.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5650804/pexels-photo-5650804.jpeg?auto=compress&cs=tinysrgb&w=800',
-  ];
+  const fallbackImages = ['/Shampoo.jpg', '/Hairline_Pen.webp'];
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 py-12">

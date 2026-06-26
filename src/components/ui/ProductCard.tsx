@@ -16,7 +16,7 @@ export default function ProductCard({ product }: Props) {
   const [imgIdx, setImgIdx] = useState(0);
 
   const name = lang === 'tc' ? product.name_tc : product.name_en;
-  const image = product.images?.[imgIdx] || 'https://images.pexels.com/photos/5632398/pexels-photo-5632398.jpeg?auto=compress&cs=tinysrgb&w=600';
+  const image = product.images?.[imgIdx] || '/Shampoo.jpg';
   const hoverImage = product.images?.[1];
   const hasDiscount = product.compare_price && product.compare_price > product.price;
   const discountPct = hasDiscount ? Math.round((1 - product.price / product.compare_price!) * 100) : 0;

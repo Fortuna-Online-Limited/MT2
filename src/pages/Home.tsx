@@ -31,12 +31,7 @@ export default function Home() {
     { icon: Star, label: t('Premium Quality', '優質品質'), desc: t('Curated & quality-tested', '精選及品質測試') },
   ];
 
-  const collectionImages = [
-    'https://images.pexels.com/photos/5632400/pexels-photo-5632400.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5632401/pexels-photo-5632401.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5650803/pexels-photo-5650803.jpeg?auto=compress&cs=tinysrgb&w=800',
-    'https://images.pexels.com/photos/5650804/pexels-photo-5650804.jpeg?auto=compress&cs=tinysrgb&w=800',
-  ];
+  const collectionImages = ['/Shampoo.jpg', '/Hairline_Pen.webp'];
 
   return (
     <>
@@ -44,7 +39,7 @@ export default function Home() {
       <section className="relative h-[80vh] min-h-[560px] flex items-center overflow-hidden bg-[#c4b47a]">
         <div className="absolute inset-0">
           <img
-            src="/sg-11134210-7rd47-lu7d9n427pyx27@resize_ss700x700.jpg"
+            src="/3804268972957164528 copy copy.webp"
             alt="MODAMODA Hero"
             className="w-full h-full object-cover object-center"
           />
@@ -156,16 +151,16 @@ export default function Home() {
       <section className="py-16 max-w-7xl mx-auto px-4 sm:px-6">
         <div className="relative rounded-3xl overflow-hidden">
           <img
-            src="https://images.pexels.com/photos/5650803/pexels-photo-5650803.jpeg?auto=compress&cs=tinysrgb&w=1280"
+            src="/3804268972957164528.webp"
             alt="Banner"
-            className="w-full h-80 object-cover"
+            className="w-full h-80 object-cover object-center"
           />
           <div className="absolute inset-0 bg-neutral-900/60 flex items-center justify-center">
             <div className="text-center text-white px-6">
               <h2 className="text-3xl sm:text-4xl font-bold mb-3">{t('Up to 30% Off', '高達7折優惠')}</h2>
               <p className="text-white/80 mb-6">{t('Shop our sale collection today', '立即選購特賣系列')}</p>
-              <Link to="/collections/best-sellers" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-neutral-900 font-semibold rounded-full hover:bg-neutral-100 transition-colors">
-                {t('Shop Sale', '立即特賣')} <ArrowRight className="w-4 h-4" />
+              <Link to="/products" className="inline-flex items-center gap-2 px-6 py-3 bg-white text-neutral-900 font-semibold rounded-full hover:bg-neutral-100 transition-colors">
+                {t('Shop Now', '立即購物')} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>

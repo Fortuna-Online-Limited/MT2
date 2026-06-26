@@ -18,9 +18,8 @@ export default function Footer() {
 
   const shopLinks = [
     { label: t('All Products', '所有產品'), href: '/products' },
-    { label: t('New Arrivals', '新品上市'), href: '/collections/new-arrivals' },
-    { label: t('Best Sellers', '暢銷產品'), href: '/collections/best-sellers' },
-    { label: t('Premium Series', '頂級系列'), href: '/collections/premium-series' },
+    { label: t('Shampoo', '洗髮水'), href: '/collections/shampoo' },
+    { label: t('Hairline Pen', '髮際線筆'), href: '/collections/hairline-pen' },
   ];
 
   const infoLinks = [
@@ -162,7 +161,6 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} MT Brand. {t('All rights reserved.', '版權所有。')}
           </p>
           <div className="flex items-center gap-4">
-            <img src="https://images.pexels.com/photos/5632400/pexels-photo-5632400.jpeg?auto=compress&cs=tinysrgb&w=1&h=1" alt="" className="hidden" />
             <span className="text-xs text-neutral-500">{t('Secured by SSL', 'SSL 安全保護')}</span>
             <div className="flex gap-2 text-xs text-neutral-600">
               <span>Visa</span>
