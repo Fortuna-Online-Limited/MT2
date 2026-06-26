@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a96e"/>
+      <stop offset="100%" style="stop-color:#e8d5a3"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a2a4a"/>
+      <stop offset="100%" style="stop-color:#1a1a30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="50%" r="40%">
+      <stop offset="0%" style="stop-color:#c9a96e;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#c9a96e;stop-opacity:0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="900" cy="315" r="280" fill="none" stroke="#c9a96e" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="900" cy="315" r="220" fill="none" stroke="#c9a96e" stroke-width="0.5" opacity="0.15"/>
+  <circle cx="900" cy="315" r="160" fill="none" stroke="#c9a96e" stroke-width="0.5" opacity="0.1"/>
+
+  <!-- Shampoo bottle illustration -->
+  <!-- Bottle body -->
+  <rect x="820" y="160" width="110" height="260" rx="20" ry="20" fill="url(#bottle)" stroke="#c9a96e" stroke-width="1.5" opacity="0.9"/>
+  <!-- Bottle cap -->
+  <rect x="840" y="130" width="70" height="40" rx="10" ry="10" fill="#c9a96e" opacity="0.8"/>
+  <!-- Bottle label -->
+  <rect x="830" y="230" width="90" height="120" rx="6" ry="6" fill="#ffffff" opacity="0.05"/>
+  <!-- Label lines -->
+  <line x1="845" y1="255" x2="905" y2="255" stroke="#c9a96e" stroke-width="1" opacity="0.5"/>
+  <line x1="845" y1="270" x2="895" y2="270" stroke="#c9a96e" stroke-width="0.8" opacity="0.35"/>
+  <line x1="845" y1="283" x2="900" y2="283" stroke="#c9a96e" stroke-width="0.8" opacity="0.35"/>
+  <line x1="845" y1="296" x2="888" y2="296" stroke="#c9a96e" stroke-width="0.8" opacity="0.35"/>
+  <!-- Sheen on bottle -->
+  <rect x="833" y="175" width="8" height="80" rx="4" fill="#ffffff" opacity="0.12"/>
+
+  <!-- Bubbles -->
+  <circle cx="780" cy="200" r="18" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.4"/>
+  <circle cx="960" cy="240" r="12" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.3"/>
+  <circle cx="750" cy="320" r="8" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.25"/>
+  <circle cx="980" cy="380" r="22" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.2"/>
+  <circle cx="760" cy="440" r="14" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.3"/>
+  <circle cx="1020" cy="180" r="10" fill="none" stroke="#c9a96e" stroke-width="1" opacity="0.25"/>
+  <!-- Filled small bubbles -->
+  <circle cx="795" cy="380" r="4" fill="#c9a96e" opacity="0.3"/>
+  <circle cx="970" cy="300" r="3" fill="#c9a96e" opacity="0.25"/>
+  <circle cx="1010" cy="420" r="5" fill="#c9a96e" opacity="0.2"/>
+
+  <!-- Left side content -->
+  <!-- Tag line -->
+  <text x="80" y="200" font-family="Georgia, serif" font-size="13" fill="#c9a96e" letter-spacing="4" opacity="0.9">MODAMODA · JANUARY 2026</text>
+
+  <!-- Gold divider line -->
+  <line x1="80" y1="220" x2="200" y2="220" stroke="url(#accent)" stroke-width="1.5"/>
+
+  <!-- Main title -->
+  <text x="80" y="285" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">The Science</text>
+  <text x="80" y="348" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Behind a</text>
+  <text x="80" y="411" font-family="Georgia, serif" font-size="52" font-weight="700" fill="url(#accent)" letter-spacing="-1">Perfect Shampoo</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="17" fill="#999999" letter-spacing="0.5">What to Look For in Your Formula</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="580" width="1200" height="50" fill="#c9a96e" opacity="0.08"/>
+  <text x="80" y="612" font-family="Arial, sans-serif" font-size="13" fill="#c9a96e" opacity="0.7" letter-spacing="2">HAIR CARE · INGREDIENTS · SCALP HEALTH</text>
+  <text x="1120" y="612" font-family="Arial, sans-serif" font-size="13" fill="#c9a96e" opacity="0.7" text-anchor="end">modamoda.hk</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1a1a"/>
+      <stop offset="100%" style="stop-color:#0a1628"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9a96e"/>
+      <stop offset="100%" style="stop-color:#e8d5a3"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="72%" cy="45%" r="45%">
+      <stop offset="0%" style="stop-color:#1a4a6b;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#1a4a6b;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="waterdrop" cx="40%" cy="30%" r="60%">
+      <stop offset="0%" style="stop-color:#4a9aba"/>
+      <stop offset="100%" style="stop-color:#1a5a7a"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg2)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <!-- Water drop illustration (right side) -->
+  <!-- Large drop -->
+  <path d="M 875 100 Q 875 100 950 230 Q 1000 315 950 390 Q 900 460 875 460 Q 850 460 800 390 Q 750 315 800 230 Q 875 100 875 100 Z"
+        fill="url(#waterdrop)" opacity="0.25"/>
+  <path d="M 875 120 Q 875 120 940 238 Q 985 315 940 382 Q 896 445 875 445 Q 854 445 810 382 Q 765 315 810 238 Q 875 120 875 120 Z"
+        fill="none" stroke="#4a9aba" stroke-width="1.5" opacity="0.5"/>
+  <!-- Inner drop sheen -->
+  <path d="M 855 160 Q 840 200 845 240" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Smaller drops orbiting -->
+  <path d="M 1020 200 Q 1020 200 1045 240 Q 1058 265 1045 285 Q 1032 305 1020 305 Q 1008 305 995 285 Q 982 265 995 240 Q 1020 200 1020 200 Z"
+        fill="#4a9aba" opacity="0.2"/>
+  <path d="M 1020 200 Q 1020 200 1045 240 Q 1058 265 1045 285 Q 1032 305 1020 305 Q 1008 305 995 285 Q 982 265 995 240 Q 1020 200 1020 200 Z"
+        fill="none" stroke="#4a9aba" stroke-width="1" opacity="0.5"/>
+
+  <path d="M 730 380 Q 730 380 748 408 Q 758 423 748 436 Q 738 448 730 448 Q 722 448 712 436 Q 702 423 712 408 Q 730 380 730 380 Z"
+        fill="#4a9aba" opacity="0.2"/>
+  <path d="M 730 380 Q 730 380 748 408 Q 758 423 748 436 Q 738 448 730 448 Q 722 448 712 436 Q 702 423 712 408 Q 730 380 730 380 Z"
+        fill="none" stroke="#4a9aba" stroke-width="1" opacity="0.45"/>
+
+  <!-- Ripple rings -->
+  <ellipse cx="875" cy="510" rx="80" ry="20" fill="none" stroke="#4a9aba" stroke-width="1" opacity="0.3"/>
+  <ellipse cx="875" cy="510" rx="120" ry="28" fill="none" stroke="#4a9aba" stroke-width="0.8" opacity="0.2"/>
+  <ellipse cx="875" cy="510" rx="160" ry="36" fill="none" stroke="#4a9aba" stroke-width="0.6" opacity="0.12"/>
+
+  <!-- Water splash dots -->
+  <circle cx="810" cy="115" r="4" fill="#4a9aba" opacity="0.4"/>
+  <circle cx="940" cy="105" r="3" fill="#4a9aba" opacity="0.35"/>
+  <circle cx="975" cy="145" r="2.5" fill="#4a9aba" opacity="0.3"/>
+  <circle cx="790" cy="160" r="3" fill="#4a9aba" opacity="0.3"/>
+
+  <!-- Left side content -->
+  <!-- Tag line -->
+  <text x="80" y="200" font-family="Georgia, serif" font-size="13" fill="#c9a96e" letter-spacing="4" opacity="0.9">MODAMODA · FEBRUARY 2026</text>
+
+  <!-- Gold divider -->
+  <line x1="80" y1="220" x2="200" y2="220" stroke="url(#accent2)" stroke-width="1.5"/>
+
+  <!-- Main title -->
+  <text x="80" y="285" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">How Often</text>
+  <text x="80" y="348" font-family="Georgia, serif" font-size="52" font-weight="700" fill="#ffffff" letter-spacing="-1">Should You</text>
+  <text x="80" y="411" font-family="Georgia, serif" font-size="52" font-weight="700" fill="url(#accent2)" letter-spacing="-1">Wash Your Hair?</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="460" font-family="Arial, sans-serif" font-size="17" fill="#999999" letter-spacing="0.5">The Complete Guide by Hair Type</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="580" width="1200" height="50" fill="#4a9aba" opacity="0.06"/>
+  <text x="80" y="612" font-family="Arial, sans-serif" font-size="13" fill="#c9a96e" opacity="0.7" letter-spacing="2">HAIR CARE · WASHING TIPS · HAIR ROUTINE</text>
+  <text x="1120" y="612" font-family="Arial, sans-serif" font-size="13" fill="#c9a96e" opacity="0.7" text-anchor="end">modamoda.hk</text>
+</svg>
